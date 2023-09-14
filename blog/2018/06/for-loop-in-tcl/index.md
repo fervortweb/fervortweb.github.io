@@ -1,4 +1,5 @@
 ---
+layout: posts
 title: "For loop in TCL"
 date: "2018-06-27"
 categories: 
