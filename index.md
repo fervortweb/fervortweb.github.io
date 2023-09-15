@@ -15,8 +15,8 @@ excerpt: >
 
 feature_row2:
   - image_path: /assets/images/andrew-neel-cckf4TsHAuw-unsplash.jpg # Thanks https://unsplash.com/ for providing images
-    alt: "Fervort Blog"
-    title: "Fervort Blog"
+    alt: "FervorT Blog"
+    title: "FervorT Blog"
     excerpt: 'Click below to read more!'
     url: "blog"
     btn_label: "Read More"
