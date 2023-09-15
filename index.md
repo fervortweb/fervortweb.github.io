@@ -12,6 +12,7 @@ header:
 excerpt: >
   Fervort.com ... Fervor Of Technology!
 # To add different feature see code here: https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/splash-page.md
+
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
