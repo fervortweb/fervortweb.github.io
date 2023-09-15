@@ -13,6 +13,7 @@ After downloading extract the zip package, and paste the package somewhere . Now
 
 ![configure debugger with eclipse](images/configure-debugger-with-eclipse-2.png "configure debugger with eclipse")We have successfully configured debugger . Its time to debug the TCL script. Take sample script or you can take this simple script which checks whether number is even or odd .
 
+```tcl
 puts "Program to find even odd numbers"
 
 set num 8
@@ -26,7 +27,7 @@ if { $num % 2 == 0 } {
  puts "number is odd " 
 
 }
-
+```
  
 
 Save the script with some name and add breakpoint to script. Now go to **Run** and click on **debug** to start debugging. You can use different commands like **Step Into** , **Step Over** , **Step Return** , **Resume** , **Terminate**.

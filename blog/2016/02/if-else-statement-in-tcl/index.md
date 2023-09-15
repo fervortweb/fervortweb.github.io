@@ -15,6 +15,7 @@ if {boolean\_expression} {
 
 One sample program based on above syntax:
 
+```tcl
 set number 0
 
 if { $number \== 0 } {
@@ -22,6 +23,7 @@ if { $number \== 0 } {
 puts "Number is zero"
 
 }
+```
 
 Here if $number value is zero then expression will return true and as value of expression is true, statement written under if block will be executed.
 
@@ -39,6 +41,7 @@ if { boolean\_expression } {
 
 Simple program based on if-else condition to check whether number is positive or negative.
 
+```tcl
 set number 2
 
 if { $number \> 0 } {
@@ -50,6 +53,7 @@ puts "Number is Positive"
 puts "Number is Negative"
 
 }
+```
 
 **Output is:**
 

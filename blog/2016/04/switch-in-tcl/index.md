@@ -23,7 +23,7 @@ options can be :
 
 **Let us see some examples :** _1\. switch case with numbers_ :
 
-\[cpp\]
+```tcl
 
 #!/usr/bin/tclsh set number 5; switch $number 1 { puts "One" }
 
@@ -31,15 +31,17 @@ options can be :
 
 3 { puts "Three" }
 
-default { puts "Invalid Number." } } \[/cpp\]
+default { puts "Invalid Number." } } 
 
- Output : $tclsh main.tcl Invalid Number.
+```
+
+Output : $tclsh main.tcl Invalid Number.
 
  
 
 2\. Switch case with string :
 
-\[cpp\] #!/usr/bin/tclsh set country\_code "US"; switch $country\_code { US { puts "United States of America" } IN { puts "India" } UK { puts "United Kingdom" } default { puts "Invalid Country Code" } } \[/cpp\]
+```tcl #!/usr/bin/tclsh set country\_code "US"; switch $country\_code { US { puts "United States of America" } IN { puts "India" } UK { puts "United Kingdom" } default { puts "Invalid Country Code" } } ```
 
  Output: $tclsh main.tcl United States of America
 
@@ -47,8 +49,11 @@ default { puts "Invalid Number." } } \[/cpp\]
 
 3\. Switch using option:
 
-\[cpp\] #!/usr/bin/tclsh set var\_string computer;
+```tcl
+#!/usr/bin/tclsh set var\_string computer;
 
-switch -glob $var\_string { com\*er { puts "Matched with com\*er" } default { puts "Invalid !" } } \[/cpp\]
+switch -glob $var\_string { com\*er { puts "Matched with com\*er" } default { puts "Invalid !" } } 
+
+```tcl
 
 Output: $tclsh main.tcl Matched with com\*er

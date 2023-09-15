@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "For loop in TCL"
 date: "2018-06-27"
 categories: 
@@ -10,6 +9,7 @@ For loop in TCL can be achieved using the command **for**. It is used to execute
 
 Let's see the syntax of **for** command:
 
+```tcl
 for { start } { test } { next }
 
 {
@@ -18,13 +18,15 @@ body
 
 }
 
+```
+
 Here, **start** portion is used to initialise the variable. **test** is an expression, which will return either true or false . **next** is the portion to increment a variable, which has been written in the start portion.
 
 Let's see some examples:
 
 1. Increment by 1
 
-\[cpp\]
+```tcl
 
 \# Example for loop
 
@@ -34,21 +36,21 @@ puts "Value of i is: $i"
 
 }
 
-\[/cpp\]
+```
 
 Output is :
 
-\[cpp\]
+```tcl
 
 Value of i is: 0 Value of i is: 1 Value of i is: 2
 
-\[/cpp\]
+```
 
  
 
 2\. Increment by 2
 
-\[cpp\]
+```tcl
 
 \# Example increment by 2
 
@@ -58,21 +60,21 @@ puts "Value of i is: $i"
 
 }
 
-\[/cpp\]
+```
 
 Output :
 
-\[cpp\]
+```tcl
 
 Value of i is: 0 Value of i is: 2 Value of i is: 4
 
-\[/cpp\]
+```
 
  
 
 3\. Loop through in reverse direction:
 
-\[cpp\]
+```tcl
 
 \# Loop through in reverse direction
 
@@ -82,12 +84,12 @@ puts "Value of i is: $i"
 
 }
 
-\[/cpp\]
+```
 
 Output:
 
-\[cpp\]
+```tcl
 
 Value of i is: 5 Value of i is: 4 Value of i is: 3 Value of i is: 2 Value of i is: 1
 
-\[/cpp\]
+```

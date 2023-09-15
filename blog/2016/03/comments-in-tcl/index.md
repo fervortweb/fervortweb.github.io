@@ -13,11 +13,11 @@ In TCL, we can add comments in three ways .
 
 For complete line comments, we need to use # sign in beginning. For example
 
-\[cpp\]
+```tcl
 
 \# This line is commented... puts "Hello World!"
 
-\[/cpp\]
+```
 
  
 
@@ -25,11 +25,11 @@ For complete line comments, we need to use # sign in beginning. For example
 
 Sometimes we need to write a comment just after finishing our code on the same line. In such cases, we can use inline comments.  Inline comments start with ;# in line. For example :
 
-\[cpp\]
+```tcl
 
 puts $tcl\_version ;# This will print TCL Version
 
-\[/cpp\]
+```
 
  
 
@@ -37,7 +37,7 @@ puts $tcl\_version ;# This will print TCL Version
 
 Sometimes we need to add comments to the block of line or to the complete procedure. In such case, we can use block comments. We need to use if with condition 0 for block comments. For example :
 
-\[cpp\]
+```tcl
 
 puts "This line is not commented !"
 
@@ -51,6 +51,6 @@ This complete block will be considered as comments.
 
 puts "Even this is not comment"
 
-\[/cpp\]
+```
 
 Try to use these types of comments in TCL scripts !
