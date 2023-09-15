@@ -15,7 +15,8 @@ For complete line comments, we need to use # sign in beginning. For example
 
 ```tcl
 
-\# This line is commented... puts "Hello World!"
+# This line is commented... 
+puts "Hello World!"
 
 ```
 
@@ -27,7 +28,7 @@ Sometimes we need to write a comment just after finishing our code on the same 
 
 ```tcl
 
-puts $tcl\_version ;# This will print TCL Version
+puts $tcl_version ;# This will print TCL Version
 
 ```
 

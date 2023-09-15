@@ -20,7 +20,7 @@ Here, _channel\_ID_ is id of channel . It specify from where we have to read. 
 Let us check one sample example.
 
 ```tcl
-puts "what is your favourite colour ?" gets stdin name\_of\_colour puts "Colour is $name\_of\_colour"
+puts "what is your favourite colour ?" gets stdin name_of_colour puts "Colour is $name_of_colour"
 ```
 
 Output :
@@ -30,13 +30,13 @@ C:\\Tcl\\bin>tclsh inputDemo.tcl what is your favourite colour ? red Colour is r
 Here is another example to add two numbers entered by user :
 
 ```tcl
-puts "Enter first number for addition:" gets stdin first\_number
+puts "Enter first number for addition:" gets stdin first_number
 
-puts "Enter second number for addition:" gets stdin second\_number
+puts "Enter second number for addition:" gets stdin second_number
 
-set answer \[expr $first\_number + $second\_number\]
+set answer [expr $first_number + $second_number]
 
-puts "Addition of $first\_number and $second\_number is : $answer"
+puts "Addition of $first_number and $second_number is : $answer"
 
 ```
 

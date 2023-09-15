@@ -4,7 +4,7 @@ title: "Blog posts"
 
 # TCL 
 
-* [Introduction to TCL](blog/2015/12/introduction-to-tcl/)
+* [Introduction to TCL](/blog/2015/12/introduction-to-tcl/)
 
 * [How to install and Run TCL](/blog/2015/12/how-to-install-and-run-tcl/)
 

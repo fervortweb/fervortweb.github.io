@@ -28,7 +28,7 @@ Let's see some examples:
 
 ```tcl
 
-\# Example for loop
+# Example for loop
 
 for {set i 0} {$i < 3} {incr i} {
 
@@ -42,7 +42,9 @@ Output is :
 
 ```tcl
 
-Value of i is: 0 Value of i is: 1 Value of i is: 2
+Value of i is: 0 
+Value of i is: 1 
+Value of i is: 2
 
 ```
 
@@ -52,7 +54,7 @@ Value of i is: 0 Value of i is: 1 Value of i is: 2
 
 ```tcl
 
-\# Example increment by 2
+# Example increment by 2
 
 for {set i 0} {$i < 5} {incr i 2} {
 
@@ -66,7 +68,9 @@ Output :
 
 ```tcl
 
-Value of i is: 0 Value of i is: 2 Value of i is: 4
+Value of i is: 0
+Value of i is: 2
+Value of i is: 4
 
 ```
 
@@ -76,7 +80,7 @@ Value of i is: 0 Value of i is: 2 Value of i is: 4
 
 ```tcl
 
-\# Loop through in reverse direction
+# Loop through in reverse direction
 
 for {set i 5} {$i > 0} {incr i -1} {
 
@@ -90,6 +94,10 @@ Output:
 
 ```tcl
 
-Value of i is: 5 Value of i is: 4 Value of i is: 3 Value of i is: 2 Value of i is: 1
+Value of i is: 5
+Value of i is: 4
+Value of i is: 3
+Value of i is: 2
+Value of i is: 1
 
 ```

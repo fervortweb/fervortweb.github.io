@@ -18,7 +18,7 @@ One sample program based on above syntax:
 ```tcl
 set number 0
 
-if { $number \== 0 } {
+if { $number == 0 } {
 
 puts "Number is zero"
 
@@ -44,7 +44,7 @@ Simple program based on if-else condition to check whether number is positive or
 ```tcl
 set number 2
 
-if { $number \> 0 } {
+if { $number > 0 } {
 
 puts "Number is Positive"
 
