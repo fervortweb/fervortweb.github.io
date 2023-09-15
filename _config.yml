@@ -107,7 +107,7 @@ defaults:
   # _posts for blog posts from blog folder. This is customization added by FervorT    
   - scope:
       path: "blog"
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true

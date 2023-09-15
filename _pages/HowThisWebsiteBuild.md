@@ -21,6 +21,8 @@ _config.yml file is modified and unnecessary things are commented like user bio 
 
 Added new scope section in defaults. Search with query FervorT . This is added for blogs inside blog folder. 
 
+_data\navigation.yml is commented to hide top menus.
 
+index.md added on root to hide index.html file. This is because index.html shows pagination of _posts folder but as there are no posts in folder. It is hidden usinf index.md
 
 
